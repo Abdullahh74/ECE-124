@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+<meta charset=utf-8>
+<title>MeGa</title>
+<link href="default.css" rel="stylesheet">
+</head>
+<body>
+	<div id="header1">
+		<div id="header2">
+			<div id="logo">
+				<h1><a href="index.html">MeGa</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="current"><a href="index.html" >Home</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="branches.html">Branches</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="regist.html">Registration</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="wrapper">
+		<div id="page" >
+			<div id="content">
+				<div class="title">
+					<h2>Welcome to MeGa Store</h2>
+					<span class="byline">Online clothing shopping site</span>
+				</div>
+				<h2>About</h2>
+				<p>
+				Morbi tristique senectus et netus et malesuada fames ac. 
+				Posuere ac ut consequat semper viverra nam libero justo laoreet. 
+				Adipiscing diam donec adipiscing tristique risus nec feugiat in. 
+				Ut morbi tincidunt augue interdum velit euismod. Vel fringilla est
+		 	    ullamcorper eget nulla facilisi etiam dignissim diam. Dolor morbi
+				non arcu risus quis varius. Commodo ullamcorper a lacus vestibulum
+				sed arcu non odio. Ullamcorper morbi tincidunt ornare massa eget 
+				egestas purus viverra. Adipiscing elit pellentesque habitant morbi
+				tristique senectus et netus et. Morbi tristique senectus et netus.
+				At in tellus integer feugiat scelerisque varius. Quis commodo odio
+				aenean sed adipiscing diam. Volutpat diam ut venenatis tellus in.
+				<br>
+				<br>
+				Eu scelerisque felis imperdiet proin. Venenatis lectus magna fringilla
+				urna porttitor rhoncus dolor purus. Ullamcorper a lacus vestibulum sed
+				arcu non odio. Nunc pulvinar sapien et ligula ullamcorper malesuada proin
+				libero nunc. Pellentesque habitant morbi tristique senectus. Ullamcorper sit
+				amet risus nullam eget felis eget. Dignissim cras tincidunt lobortis feugiat 
+				vivamus at. Vitae aliquet nec ullamcorper sit amet risus nullam. Rhoncus dolor
+				purus non enim. Sagittis orci a scelerisque purus semper eget duis at.
+				Ullamcorper morbi tincidunt ornare massa. Diam donec adipiscing tristique
+				risus nec feugiat in fermentum posuere. Imperdiet dui accumsan sit amet 
+				nulla facilisi morbi. Ultrices eros in cursus turpis. Facilisi nullam 
+				vehicula ipsum a arcu. Ultrices neque ornare aenean euismod elementum.
+				Nec ultrices dui sapien eget mi proin sed.
+				</p>
+			</div>
+
+			<div class="sidebar">
+				<h2>⭐New Arrivals⭐</h2>
+
+				<a href="shop.html">
+					<img class="Slid" src="images/1.jpg" alt="buy now">
+				</a>
+
+				<a href="shop.html">
+					<img class="Slid" src="images/6.jpg" alt="buy now">
+				</a>
+
+				<a href="shop.html">
+					<img class="Slid" src="images/11.jpg" alt="buy now">
+				</a>
+
+				<a href="shop.html">
+					<img class="Slid" src="images/16.jpg" alt="buy now">
+				</a>
+
+				<script>
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+					var i;
+					var x = document.getElementsByClassName("Slid");
+					for (i = 0; i < x.length; i++) {
+  					x[i].style.display = "none";
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}
+					x[myIndex-1].style.display = "block";
+					setTimeout(carousel, 3000);
+					}
+				</script>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+ 	<div id="portfolio">
+		<div id="portfolio1" >
+			<div class="title">
+				<h2>MeGa Store</h2>
+				<span class="byline">Online clothing shopping site</span> 
+			</div>
+
+			<div id="column">
+				<p>Because we care about your comfort.We do online shopping is easier and faster to buy while you are at home.Click below to see</p>
+				<a href="shop.html" class="button">Shopping Now</a>
+			</div>
+			
+			<div id="column">
+				<p>If you want to visit one of our branches, click the button below and Check out your nearest branch.</p>
+				<a href="branches.html" class="button">Check Here</a>
+			</div>
+			
+			<div id="column">
+				<p>If you have a problem or want to give your opinion in order to develop our product or service. Please, Click below</p>
+				<a href="contact.html" class="button">Click Here</a> 
+			</div>
+			
+			<div id="column">
+				<p>If you like to join our family and be one of our family. Please, click below.<br><br></p>
+				<a href="regist.html" class="button" id="button">Join Us</a>
+			</div>
+		</div>
+	</div>
+
+
+	<footer>
+	<p>MeGa 2020&copy;All rights reserved | Design by Abdullah</p>
+	</footer>
+</body>
+
+

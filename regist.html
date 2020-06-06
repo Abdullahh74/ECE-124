@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MeGa</title>
+    <link href="default.css" rel="stylesheet" >
+
+</head>
+<body>
+    <div id="header1">
+		<div id="header2">
+			<div id="logo">
+				<h1><a href="index.html">MeGa</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html" >Home</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="branches.html">Branches</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li class="current"><a href="regist.html">Registration</a></li>
+				</ul>
+			</div>
+		</div>
+    </div>
+    <div id="wrapper">
+        <div id="page3">
+            <form action="index.html" method="POST" onsubmit="return check(this);">
+
+                <div class="mg">
+                    Please, Fill form to create an account and become a member of our family.
+                </div>
+
+                <div class="cm">
+                    <label for="fname">First Name:</label>
+                    <input type="text"  name="Fname" title="enter name without spaces and nembers" placeholder="Enter Your First Name"  autofocus pattern="[A-Za-z]{3,10}" required>
+                </div>
+
+                <div class="cm">
+                    <label for="lname">Last Name:</label>
+                    <input type="text"  name="Lname" title="enter name without spaces and nembers" placeholder="Enter Your Last Name" pattern="[A-Za-z]{3,10}" required>
+                </div>
+
+                <div class="cm">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" title="EX:adsd_15@dsf.com" placeholder="Enter Your E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                </div>
+
+                <div class="cm">
+                    <label for="pass">Password:</label>
+                    <input type="password" title="password must consist of only 8 characters including capital and small case and digits" name="p1" placeholder="Enter Your Password" required>
+                </div>
+
+                <div class="cm">
+                    <label for="pass">Repeat Password:</label>
+                    <input type="password"  name="p2" placeholder="Repeat Password" required>
+                </div>
+
+                <div class="cm">
+                    <label for="mobile">Mobile Number:</label>
+                    <input type="tel" title="Enter 11 Digit" name="phone" placeholder="Enter Your Mobile Number" pattern="[0-9]{11}" required>
+                </div>
+
+                <div class="cm">
+                    <label for="address">Address:</label>
+                    <input type="text"  name="address"  placeholder="Enter Your Address" required>
+                </div>
+
+                <div class="cm">
+                    <label for="gender">Gender:</label>
+                    <select class="gender" name="gender" required>
+                        <option  value="choose">choose</option>
+                        <option  value="male">Male</option>
+                        <option  value="female">Female</option>
+                    </select> 
+                </div>
+                
+                    <p>By clicking Sign Up, you agree to <a href="#" > our Terms</a>, <a href="#"> Data Policy</a>  and Cookie Policy.</p>
+                <div class="bn">
+                    <button  type="submit" class="button">Sign up</button>  
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>MeGa 2020&copy;All rights reserved | Design by Abdullah</p>
+    </footer>
+    <script src="form.js"></script>
+</body>
+</html>

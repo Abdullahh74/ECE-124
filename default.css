@@ -1,0 +1,400 @@
+
+html, body
+{   
+	height: 100%;
+}
+
+body
+{
+	margin: 0px 0px;
+	padding: 0px;
+	background: #171717;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #363636;
+}
+
+h1, h2, h3
+{
+	margin: 0 0 ;
+	padding: 0 5%;
+}
+
+p, ul
+{
+	margin-top: 0px;
+	
+}
+
+p
+{
+	line-height: 180%;
+	padding: 0 5%;
+}
+
+a
+{
+	color: #AB2657;
+}
+
+.clearfix
+{
+	clear: both;
+}
+
+/*  ------- logo ------------*/   
+
+#logo
+{
+	position: absolute;
+	top: 3em;
+	left: 0;
+	width: 100%;
+}
+	
+#logo h1
+{
+	display: inline-block;
+	font-size: 2.5em;
+	font-weight: 700;
+		
+}
+	
+#logo a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+/* ---------------- menu -----------------*/
+#menu
+{
+	position: absolute;
+	right: 0;
+	top: 3em;
+}
+	
+#menu ul
+{
+	display: inline-block;
+}
+	
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+}
+	
+#menu li a
+{
+	display: block;
+	padding: 0.80em 1.5em;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	font-size: 0.90em;
+	font-weight: 600;
+	text-transform: uppercase;
+	outline: 0;
+	color: #A2A2A2;
+}
+	
+	
+#menu .current a
+{
+	color: #FFF;
+}
+
+/* ----------- page ------------------*/
+
+#page
+{
+	position: relative;
+	overflow: hidden;
+	padding: 5em 0 5em 0;
+	background: #FFFFFF;
+}
+
+/* ------------------ content --------------*/
+
+#content
+{
+	float: left;
+	width: 60%;
+}
+
+
+/*-----------------slidebar --------------*/
+
+.sidebar
+{   
+	padding-top: 7%;
+	float: right;
+	width: 30%;
+	overflow: auto;
+
+}
+	
+.sidebar h2
+{   text-align: center;
+	font-size: 1.6em;
+}
+.sidebar  a img
+{   
+	width: 100%;
+    height: 500px;
+
+
+
+}
+
+/* ------------header ----------------- */
+
+#header1
+{
+	overflow: hidden;
+	height: 600px;
+	background: url('images/header1.jpg') no-repeat top center;
+	background-size: 100%;
+}
+
+
+#header2
+{
+	background: rgba(0,0,0,.5);
+	box-shadow: inset 0 10px 10px  rgba(0,0,0,.1);
+	position: relative;
+	height: 100px;
+}
+
+
+/*--------------- portfolio -----------------*/
+
+#portfolio
+{
+	background: #710C31;
+	padding: 05em 01em 05em 01em;
+}
+	
+#portfolio1
+{
+	overflow: hidden;
+    text-align: center;
+	color: #EEA7C1;
+}
+	
+#portfolio .title h2
+{
+	color: #FFF;
+}
+#portfolio .byline
+{
+	color: #EEA7C1;
+}
+	
+#column
+{
+	width: 20%;
+	margin: 0 2.5% 0 2.5%;
+	float: left;
+}
+	
+
+/* ------------------footer ------------*/
+footer
+{       
+	overflow: hidden;
+	padding: 5px 0 5px 0;
+	letter-spacing: 0.20em;
+	text-align: center;
+	font-size: 0.80em;
+	color: #8C8C8C;
+}
+
+	
+/* -------- heading title ----------------*/
+.title
+{
+	margin-bottom: 3em;
+	text-transform: uppercase;
+}
+
+.title h2
+{
+	letter-spacing: 0.20em;
+	font-weight: 700;
+	font-size: 2em;
+	color: #171717;
+}
+	
+.title .byline
+{   margin: 5%;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.90em;
+	color: #6F6F6F;
+}
+
+/*--------------- button ------------*/
+.button
+{
+	display: inline-block;
+	margin-top: 2em;
+	padding: 1em 3em;
+	background: #C4376B;
+	
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.90em;
+	color: #FFF;
+}
+/*-------------column--------------*/
+#two-column
+{
+	padding-top: 3em;
+}
+	
+#two-column .title h2
+{
+	font-size: 1.6em;
+}
+	
+#two-column #tbox1
+{
+	float: left;
+	width: 370px;
+}
+
+#two-column #tbox2
+{
+	float: right;
+	width: 370px;
+}
+/*------ shop--------*/
+#page1
+{   
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
+    
+	overflow: hidden;
+	background: #FFFFFF;
+
+}
+
+#page1 h2,hr
+{   color:  #171717;
+	text-align: center;
+	font-size: 4em;
+}
+
+#page1 img
+{   text-align: center;
+	margin: 5%;
+	display: inline-block;
+	width: 300px;
+	height: 400px;
+}
+
+/*-------branches-------*/
+
+#page2 
+{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+
+#page2 p
+{   margin: auto;
+	color:  #171717;
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 5%;
+}
+
+table, td, th,tr 
+{
+	border: black solid 2px;
+	border-collapse: collapse;
+	color:  #171717;
+
+}
+
+table {
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	color:  #171717;
+	font-size: 2em;
+}
+#page2 a
+{
+	text-decoration: none;
+}
+
+
+/*---------- contact and regist----------------*/
+#page3
+{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
+	overflow: hidden;
+	background: #FFFFFF;
+
+}
+
+#page3 form
+{
+	margin: 30px 0;
+}
+.mg
+{
+	font-size: 1.5em;
+	padding-left: 5%;
+}
+.cm
+{  
+	padding-left: 5%;	
+	margin: 20px 0;
+}
+.cm label{
+	padding: 15px 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: left;
+	display: block;
+}
+.cm textarea
+{   padding: 15px 10px;
+	height: 400px;
+	width: 80%;
+}
+.cm input
+{   padding: 15px 10px;
+	width: 80%;
+
+}
+.cm select 
+{
+	padding: 15px 10px;
+	width: 80%; 
+}
+.bn
+{   
+	padding: auto;
+	text-align: center;
+	width: 50%;
+}
+
+#page3 a
+{
+	text-decoration: none;
+}

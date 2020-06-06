@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<meta charset=utf-8 >
+<title>MeGa</title>
+<link href="default.css" rel="stylesheet"  >
+</head>
+<body>
+
+	<div id="header1">
+		<div id="header2">
+			<div id="logo">
+				<h1><a href="index.html">MeGa</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html" >Home</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="branches.html">Branches</a></li>
+					<li class="current"><a href="contact.html">Contact Us</a></li>
+					<li><a href="regist.html">Registration</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="wrapper">
+		<div id="page3">
+			
+			<div class="mg">If you have a problem or want to give 
+				your opinion in order to develop our product or service. <br>
+				Please, Fill it form...
+			</div>
+
+			<form action="index.html" method="POST" onsubmit="return check1(this);">
+				
+	            <div class="cm">
+					<label for="name">Name:</label>
+					<input type="text" name="name" placeholder="Enter Your Name" autofocus  required> 				
+				</div>
+
+				<div class="cm">
+					<label for="email">E-mail address:</label>
+					<input type="email" title="EX:adsd_15@dsf.com" name="mail" placeholder="Enter Your E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required> 
+				</div>
+
+	            <div class="cm">
+					<label for="subject">Subject:</label>
+					<textarea id="subject" name="subject" placeholder="Write Your Message Here...."></textarea>	
+				</div>
+
+				<div class="bn">
+					<input type="submit" class="button" value="Send">
+				</div>		
+			</form>
+		</div>
+	</div>
+
+	<footer>
+		<p>MeGa 2020&copy;All rights reserved | Design by Abdullah</p>
+	</footer>
+	<script src="form.js"></script>
+</body>
+
