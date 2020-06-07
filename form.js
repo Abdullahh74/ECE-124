@@ -54,6 +54,7 @@ function check(form) {
         return false;
     }
     return alert("Thank you for Sign Up. Now, You are Member of Our Family");
+    window.location.href = 'welcome.html';
     
 
 
@@ -66,6 +67,7 @@ function check1(form) {
         form.subject.focus();
         return false;
     }
-    return alert("Thank You for message. We contact with You soon")
+    return alert("Thank You for message. We contact with You soon");
+    window.location.href = 'welcome.html';
     
 }
