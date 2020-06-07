@@ -54,6 +54,7 @@ function check(form) {
         return false;
     }
     return alert("Thank you for Sign Up. Now, You are Member of Our Family");
+    window.location.href = 'home.html';
 
 
 
