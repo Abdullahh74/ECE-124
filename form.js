@@ -66,4 +66,5 @@ function check1(form) {
         return false;
     }
     return alert("Thank You for message. We contact with You soon")
+    window.location.href = 'home.html';
 }
